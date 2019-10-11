@@ -1,0 +1,32 @@
+body {
+  display: flex;
+}
+
+.left-sidebar {
+  width: 25vw;
+  height: 100vh;
+}
+
+.main-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro {
+  font-family: helvetica;
+}
+
+.feed {
+  display: flex;
+}
+
+.column {
+  width: 33%;
+}
+
+.project,
+.lesson,
+.links {
+  @extend .column;
+}
