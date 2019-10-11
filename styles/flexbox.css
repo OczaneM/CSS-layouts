@@ -15,17 +15,26 @@ body {
 }
 
 .left-sidebar {
-  /* height: 90%; */
-  width: 15vw;
+  flex-grow: 1;
+  width: 100px;
 }
 
 .main-content {
   display: flex;
   flex-direction: column;
+  flex-shrink: 1;
 }
 
 .intro {
+  height: 25vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.intro_text {
   font-family: helvetica;
+  text-align: center;
 }
 
 .feed {
@@ -36,7 +45,7 @@ body {
 .project,
 .lesson,
 .links {
-  /* width: 30%; */
+  width: 33vw;
 }
 
 .footer {
