@@ -1,5 +1,5 @@
 body {
-  height: 100vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -10,7 +10,7 @@ body {
 
 .left-sidebar {
   width: 25vw;
-  height: 100vh;
+  height: 100%;
 }
 
 .main-content {
@@ -35,4 +35,8 @@ body {
 .lesson,
 .links {
   @extend .column;
+}
+
+.footer {
+  flex-shrink: 1;
 }
